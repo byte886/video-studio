@@ -28,5 +28,5 @@
 
 ## 外部资源指针
 - 统一决策知识库（珠宝电商第十章）：https://my.feishu.cn/docx/Jx3edNAaEoZ48zxB4TacSTGmnfb
-- 本项目 SOP 主文档：`01_结论与产出/国内AI生成珠宝实操SOP.md`
+- 本项目 SOP 主文档：`domains/jewelry/国内AI生成珠宝实操SOP.md`
 - 调研证据：`09_调研底稿与素材/`（5 份笔记，含来源清单）
