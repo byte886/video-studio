@@ -126,5 +126,5 @@
 - 抽帧/音频客观特征：`…/珠宝学者郭颖/analysis/<片名>/`（frames、frames_manifest.csv、audio_features.json）。
 - 转写稿：`content-pipeline/library/05_knowledge/jewelry/珠宝学者郭颖/transcripts/<片名>/transcript.md`（FunASR 自动转写，错字已在各卡片结合画面校正；存疑处标〔转写〕）。
 - 采集工单：`…/珠宝学者郭颖/B级首批10条创作对标工单.md`。
-- 音频方法论：`video-studio/01_结论与产出/音频选择与生成SOP.md`。
+- 音频方法论：`01_结论与产出/音频选择与生成SOP.md`。
 - 各卡片第九节按四档标注：[已查证·画面] / [已查证·音频客观值] / [博主一方说法]（口播观点与报价，不核价）/ [未经核实·需人工复听]。

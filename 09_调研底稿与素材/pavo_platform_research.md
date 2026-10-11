@@ -9,7 +9,7 @@
 ## 一、来源与提取方法
 
 - **触发视频**：【程序员三千 第19集】抖音 https://v.douyin.com/U_8M1oGeBrs/（视频 ID 7681890552828185908）
-- **提取方法**：`multiplatform-media-fetch` 抖音脚本被风控（匿名 ttwid 与 `--browser chrome` 均被拒）后，走 **浏览器直读提取法**（`references/douyin-browser-extract.md`）：免登录打开公开视频页 → 官方"章节要点"面板（等效字幕）→ 时间轴跳转 + 关键帧截图 OCR 补充画面信息 → 合成解读稿。
+- **提取方法**：`multiplatform-media-fetch` 抖音脚本被风控（匿名 ttwid 与 `--browser chrome` 均被拒）后，走 **浏览器直读提取法**（技能引用：~/Doubao/skills/multiplatform-media-fetch/references/platforms/douyin-browser-extract.md）：免登录打开公开视频页 → 官方"章节要点"面板（等效字幕）→ 时间轴跳转 + 关键帧截图 OCR 补充画面信息 → 合成解读稿。
 - **多源补证**（见第五节引用表）。
 
 ## 二、平台概况

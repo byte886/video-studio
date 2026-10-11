@@ -79,10 +79,9 @@
 - **解决**：grep 复查全文，证据档均为"已查证（多源交叉）/经搜索补充"，无"博主一方说法"行；判定评估基于旧版本或误报，维持现状不修改
 
 ### ISSUE-013: 09 只读区断链 15 处（旧路径/缺前缀/未入库产物引用）
-- **状态**：open ｜ **发现时间**：2026-10-12 ｜ **来源**：全库断链复扫（2026-10-12）
+- **状态**：✅ 已修复 ｜ **发现时间**：2026-10-12 ｜ **修复时间**：2026-10-12（用户授权"其他待办实际执行"＝09 只读例外）
 - **问题描述**：`09_调研底稿与素材/` 只读区内存在 15 处不可解析的路径引用：①旧路径（主SOP 已移至 `domains/jewelry/`，09 内 6 处仍写旧路径「01_结论与产出/国内AI生成珠宝实操SOP.md」「01_结论与产出/无模特版出片SOP.md」：收藏素材体系总纲_20261005、蓝宝石术语勘误说明×2、SOP精炼评估报告×2、SOP精炼方案）；②缺前缀（`09_调研底稿与素材/` 前缀省略，实际文件存在：B1路→xhs_jewelry_videos_effect_analysis.md、郭颖B级对标README→多写 `video-studio/` 前缀）；③未入库产物（douyin_favorites_latest.json、video-effect-analysis.md、references/douyin-browser-extract.md〔技能引用〕、douyin_favorites_analysis_20261006.md〔仅 batch1/2〕、libtv_video/libtv_ocr.md、transcripts/dy_jiayan/transcript.md）
-- **影响**：09 内导航/底稿按路径回查会落空；技能引用类（video-effect-analysis.md 等）实际指向 `~/Doubao/skills/multiplatform-media-fetch/references/`，非本仓断链
-- **核实路径**：走 ISSUE-009 式 09 只读例外（用户授权后一次修正旧路径与缺前缀；未入库产物类登记为"本地持有不入库"，技能引用类标注外部指针）
+- **解决**：①旧路径 6 处全部改为 `domains/jewelry/`（收藏素材体系总纲/蓝宝石术语勘误/SOP精炼评估报告/SOP精炼方案）；②补 `09_调研底稿与素材/` 前缀 3 处（总纲 P7 表、B1路、douyin_xhs_synthesis）、去 README 多余 `video-studio/` 前缀 1 处；③未入库产物 7 处全部加标注（"本地持有不入库"/"技能引用：~/Doubao/skills/multiplatform-media-fetch/references/…"），不改路径。重扫 09 区：旧路径/裸引用/多余前缀 0 残留
 - **来源**：2026-10-12 全库断链扫描报告（脚本 /tmp/broken_link_scan2.py，活跃区已清零）
 
 ## 已验证做不通的方向（Won't Fix）

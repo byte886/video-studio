@@ -105,7 +105,7 @@
 
 ## 7. 证据链
 
-- 转写稿：`libtv_video/transcripts/【第 1 集】.../transcript.md`（3311 字，FunASR 13.7x 实时）
-- OCR 稿：`libtv_video/libtv_ocr.md`（51 唯一帧，macOS Vision OCR）
-- 视频原件：`libtv_video/downloads/【第 1 集】... [fBI_ln4763Y].mp4`（40MB，720p）
+- 转写稿：`libtv_video/transcripts/【第 1 集】.../transcript.md`（3311 字，FunASR 13.7x 实时；本地持有不入库）
+- OCR 稿：`libtv_video/libtv_ocr.md`（51 唯一帧，macOS Vision OCR；本地持有不入库）
+- 视频原件：`libtv_video/downloads/【第 1 集】... [fBI_ln4763Y].mp4`（40MB，720p；本地持有不入库）
 - 公开链接：https://youtu.be/fBI_ln4763Y

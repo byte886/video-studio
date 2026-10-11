@@ -1,6 +1,6 @@
 # 抖音收藏盘点 · 2026-10-06（新增批次）
 
-> 采集方式：外部 Chrome 登录态遍历收藏页（`showTab=favorite_collection`），read_all href 去重，剔除 Baiduspider 干扰。落盘：`douyin_favorites_latest.json`（会话工作目录）。
+> 采集方式：外部 Chrome 登录态遍历收藏页（`showTab=favorite_collection`），read_all href 去重，剔除 Baiduspider 干扰。落盘：`douyin_favorites_latest.json`（会话工作目录本地持有，不入库）。
 > 对比基准：`douyin_favorites_inventory_20261005.md` / batch1 / batch2。本批次 11 条，全部为新增。
 
 ## 分类总览
@@ -22,7 +22,7 @@
 ## 高优先级说明（与当前业务直接相关）
 
 - **#1 Seedance 2.5 玩法**：当前生产链路主用 Seedance 2.0 Fast；2.5 满血版玩法若含一致性/运镜增量，直接影响模特版视频选型 → **最先解析**
-- **#6 活人感** + **#7 胶片感**：用户此前明确点名的两个效果分析对象，SOP 未落地的效果呈现层经验 → 按 `video-effect-analysis.md` 走效果拆解
+- **#6 活人感** + **#7 胶片感**：用户此前明确点名的两个效果分析对象，SOP 未落地的效果呈现层经验 → 按 `video-effect-analysis.md` 走效果拆解（技能引用：~/Doubao/skills/multiplatform-media-fetch/references/process/video-effect-analysis.md）
 - **#9 提示词框架**："AI艺术=提示词+图形引导+模型能力+审美"四要素，可直接反哺无模特版/模特版 SOP 的提示词章节
 - **#2 ChatCut 剪辑自动化**：与"Codex/Agent 自动剪辑"相关，可作为生产仓剪辑环节的自动化备选
 
@@ -37,10 +37,10 @@
 | 16 | 7677524321853558067 | 睿叔叔《一毛钱做4K画质的工作流》（Seedance 480P+Flova超分） | ✅ 7677524321853558067_睿叔叔_低成本4K工作流_effect_analysis.md |
 | 17 | 7693417714257317156 | 团子巧克力《氛围感图片教程》（FlovaAI SKILL 图片生成，教学类） | ✅ 7693417714257317156_团子巧克力_氛围感图片教程_文稿提炼.md |
 
-> 全部 12 条完整分析集 + 综合提炼稿 + FlovaAI 平台调研见 `09_调研底稿与素材/20261006_收藏视频分析/`；综合稿 `douyin_favorites_analysis_20261006.md`。
+> 全部 12 条完整分析集 + 综合提炼稿 + FlovaAI 平台调研见 `09_调研底稿与素材/20261006_收藏视频分析/`；综合稿 `douyin_favorites_analysis_20261006.md`（本地持有，仅 batch1/2 综合稿未入库）。
 
 ## 待办
 
-- [x] 逐条走 `video-effect-analysis.md` 效果分析（#1/#2/#6/#7/#9 优先）——10 条收藏全部 ✅，另完成姜颜魏晋篇/艺谋学长/姜颜东晋上篇 3 条补充分析（双通道：画面层+音频层）
+- [x] 逐条走 `video-effect-analysis.md` 效果分析（技能引用：~/Doubao/skills/multiplatform-media-fetch/references/process/video-effect-analysis.md；#1/#2/#6/#7/#9 优先）——10 条收藏全部 ✅，另完成姜颜魏晋篇/艺谋学长/姜颜东晋上篇 3 条补充分析（双通道：画面层+音频层）
 - [x] 解析结果提炼进生产仓 SOP（提示词/工具选型/音频调性/分镜）——音频SOP「四·六」、工具选型参考 §3.10-3.11、无模特版出片SOP、广告叙事SOP、ADR-002 均已加法式同步
 - [ ] 收藏遍历流程沉淀：本次复用 douyin-favorites-extract 成功（登录态→滚动→去重→落盘），无新坑
