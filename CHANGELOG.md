@@ -6,6 +6,10 @@
 > 类型：新增（feat）/ 变更（change）/ 修复（fix）/ 废弃（deprecate）/ 移除（remove）。
 > 与 ADR 分工：ADR 记"为什么这么决策"；本文件记"实际发生了什么变更"。
 
+## 2026-10-12
+
+- 2026-10-12 ［新增］郭颖 B 级首批 10 条「画面层+音频层双轨创作对标卡片」+ 索引入 `09_调研底稿与素材/郭颖B级对标_20261012/`（开箱估价高/中/低客单、蓝宝石彩宝讲货、名石故事、高货项链、东方工艺四类范式；221 帧逐帧+librosa BPM/频段/能量突变客观特征；每卡含导演动机、豆包系/可灵双版提示词并改写至「足金O字链嵌蓝宝石」、音频配方；索引给 86–136BPM 片型-音频对照与慢氛围/快讲货两版组合打法）。原片/转写/预处理/台账在 content-pipeline（commit 4f22a38）。乐器/情绪/拟音 AI 无耳，待人工复听清单见索引第五节
+
 ## 2026-10-09
 
 - 2026-10-09 ［新增］Remotion「声音选项 + 数字人选项」本机验证通过并回填模板（`remotion-minimal-template` 新增 AnchorVideo 成片 + Avatar / audioEnergy 组件，package.json 加 @remotion/media-utils，render.sh 支持选片，README 与 public/ 补音频生成、数字人三路径说明）：TTS 配音 + BGM（波形 RMS 自动闪避）+ 程序化 SVG 数字人（RMS 驱动口型 / 眨眼 / 头部点动），11s 成片 1.2MB，抽帧确认口型随说话明显开合；写实数字人（OmniHuman / HeyGen / D-ID）与 3D（Ready Player Me + R3F）路径沉淀进《工具选型参考》3.12 与模板，暂不烧钱。
