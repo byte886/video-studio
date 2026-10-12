@@ -8,6 +8,8 @@
 
 ## 2026-10-12
 
+- 2026-10-12 ［维护］文档层评审补做（用户指出文档层维护未落实后补做）：①评审报告 2.2 节补列 D-7（09 区 83 卡+索引无 OKF frontmatter，与 AGENTS.md:73「新写自然采用 OKF」不一致，09 只读区故登记待授权）；②ISSUES.md 开放节新增 ISSUE-018（09 区 frontmatter 批量回填·待授权）；③TASK_STATUS 计数 8→9 开放同步；④其余文档层发现（D-1 PROFILE 笔记数 / D-2 SOP 同名互指 / D-5 连字符统一 / D-8 frontmatter 路径基准）已在前期维护执行，证据见 commit 1effc37（D-1/D-2/D-8）与 c3c9361（D-5）。
+
 - 2026-10-12 ［维护］评审授权收尾（用户拍板"全部执行，按推荐方案"）：①新立 ADR-004《方案A改款定稿·足金O字链单颗5.5mm蓝宝石居中》+ ADR-001 标「已被 ADR-004 取代」退役注（只加注不删原文）+ ADR 索引/根 README:34 同步；②PROFILE.md:10、README.md:43 设计口径回写改款A 并指向 ADR-004（ISSUE-016 关闭）；③09 只读区授权标注 2 处（郭颖对标索引 :3 计数 10→83 张〔首批10+批1~6共73〕、:138 `video_dual_analysis_prep.py` 补「content-pipeline 仓不入库」标注，ISSUE-017 关闭）；④逐帧目录连字符统一（`ISSUE003_逐帧核实`→`ISSUE-003_逐帧核实`，git mv + 全仓引用同步，content-pipeline `workspace/ISSUE003_20261012/` 未动）；⑤ISSUES.md 016/017 移入已解决节，开放计数 8/已解决 9/未决 3。
 
 - 2026-10-12 ［维护］全仓评审与治理同步（评审报告 01_结论与产出/仓库评审报告_20261012.md）：①ADR 索引补登 ADR-003（02_决策记录/README.md + 根 README 同步）②TASK_STATUS 计数 4→7 修正（逐个数 ISSUES 核实）③ISSUES 章节重组（7 条 resolved 移入独立「已解决」节、开放项按编号序）+新增 ISSUE-016（设计口径分裂·待拍板）/ISSUE-017（09 只读区两处·待授权）④CHANGELOG 补登批1~6 共73卡/ISSUE-014/ISSUE-015 ⑤PROFILE 事实层 09 区笔记数刷新（5 份→30+ 份，未触方案行）⑥SOP 同名文件互指标注（03 精炼方案头部注明为 09 全本执行摘要）⑦首条成片方案 frontmatter 路径基准统一（去 `./` 前缀，仓根相对）⑧00_项目总纲刷新（日期 2026-10-12 + 近期里程碑：方案A定稿沉淀/ISSUE-003 关闭/郭颖83卡）⑨AGENTS 补 control-tower 反向指针 ⑩TASK_STATUS 追加评审任务行；09 只读区/PROFILE:10/README:43/ADR-001/目录重命名一律未动（登记待授权）。
