@@ -4,7 +4,7 @@ title: "对标卡片 B3-10 · 龙头龟为何三指为贵（办公桌前对看�
 description: "龙头龟为何三指为贵：真实工作室（白管顶棚/书架）+郭颖白毛衣坐桌前，桌上铺满蓝色证书本+玉镯玉坠+女助手戴米色帽旁立"
 tags: [对标卡片, 郭颖, 抖音, 珠宝视频, 办公桌前对看货+meme梗图幽默型]
 sources:
-  - resource: "抖音「珠宝学者郭颖」批3工单（视频 URL 待补录；中间产物在 content-pipeline 仓 analysis/transcripts，见正文第九节）"
+  - resource: "https://www.douyin.com/video/7565790458711556006"
     title: "郭颖抖音视频·龙头龟为何三指为贵"
 generated: {by: video-studio AI 工作流, at: 2026-10-12}
 status: draft

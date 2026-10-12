@@ -4,7 +4,7 @@ title: "对标卡片 B5-11 · 这么大颗的akoya珍珠（品类科普·分级�
 description: "这么大颗的akoya珍珠：akoya大珠微距（粉绿晕彩）+马氏珠母贝地域性科普+网络图鉴（天女/花珠/真多麻分级表+'…"
 tags: [对标卡片, 郭颖, 抖音, 珠宝视频, 品类科普·分级图鉴型]
 sources:
-  - resource: "抖音「珠宝学者郭颖」批5工单（视频 URL 待补录；中间产物在 content-pipeline 仓 analysis/transcripts，见正文第九节）"
+  - resource: "https://www.douyin.com/video/7188025178729778472"
     title: "郭颖抖音视频·这么大颗的akoya珍珠"
 generated: {by: video-studio AI 工作流, at: 2026-10-12}
 status: draft

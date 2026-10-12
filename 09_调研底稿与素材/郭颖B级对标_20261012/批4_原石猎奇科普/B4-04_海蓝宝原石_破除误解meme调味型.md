@@ -4,7 +4,7 @@ title: "对标卡片 B4-04 · 海蓝宝虽然名字里有海，但（破除误�
 description: "海蓝宝虽然名字里有海，但：低头看手中海蓝宝原石+红蓝大字'海蓝宝石是从海里出来的吗'+胸口小熊猫meme贴纸'啊这' …"
 tags: [对标卡片, 郭颖, 抖音, 珠宝视频, 破除误解·meme调味型]
 sources:
-  - resource: "抖音「珠宝学者郭颖」批4工单（视频 URL 待补录；中间产物在 content-pipeline 仓 analysis/transcripts，见正文第九节）"
+  - resource: "https://www.douyin.com/video/7363568345808899343"
     title: "郭颖抖音视频·海蓝宝虽然名字里有海，但"
 generated: {by: video-studio AI 工作流, at: 2026-10-12}
 status: draft
