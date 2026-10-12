@@ -1,3 +1,15 @@
+---
+type: Reference
+title: "对标卡片 B1-03 · GRAFF艳彩黄色钻石项链（克数大字+荧光知识点型）"
+description: "GRAFF艳彩黄色钻石项链：克数大字钩子(41.28克拉)+GRAFF品牌背书+Fancy Vivid Yellow术…"
+tags: [对标卡片, 郭颖, 抖音, 珠宝视频, 克数大字+荧光知识点型]
+sources:
+  - resource: "https://www.douyin.com/video/7203291360097520951"
+    title: "郭颖抖音视频·GRAFF艳彩黄色钻石项链"
+generated: {by: video-studio AI 工作流, at: 2026-10-12}
+status: draft
+---
+
 # 对标卡片 B1-03 · GRAFF艳彩黄色钻石项链（克数大字+荧光知识点型）
 
 > 来源：https://www.douyin.com/video/7203291360097520951 ｜ 博主：郭颖（中国地质大学〔北京〕珠宝学院院长）

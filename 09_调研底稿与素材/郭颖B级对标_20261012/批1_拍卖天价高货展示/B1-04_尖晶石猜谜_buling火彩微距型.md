@@ -1,3 +1,15 @@
+---
+type: Reference
+title: "对标卡片 B1-04 · 几乎完美的尖晶石（猜谜互动+bulingbuling微距型）"
+description: "几乎完美的尖晶石：惊叹大字'oh~boy'+猜谜诱导（先展示变色蓝宝石做错误答案）+揭晓天然尖晶石+极端微距bulin…"
+tags: [对标卡片, 郭颖, 抖音, 珠宝视频, 猜谜互动+bulingbuling微距型]
+sources:
+  - resource: "https://www.douyin.com/video/7203651565486443816"
+    title: "郭颖抖音视频·几乎完美的尖晶石"
+generated: {by: video-studio AI 工作流, at: 2026-10-12}
+status: draft
+---
+
 # 对标卡片 B1-04 · 几乎完美的尖晶石（猜谜互动+bulingbuling微距型）
 
 > 来源：https://www.douyin.com/video/7203651565486443816 ｜ 博主：郭颖（中国地质大学〔北京〕珠宝学院院长）

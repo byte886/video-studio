@@ -8,6 +8,8 @@
 
 ## 2026-10-12
 
+- 2026-10-12 ［新增·治理］09 对标卡片群 OKF frontmatter 批量回填（ISSUE-018，用户授权 09 只读例外）：范围 `09_调研底稿与素材/郭颖B级对标_20261012/` 共 84 文件（根目录首批 10 卡 + 批1~5 各12 + 批6 13 = 83 卡 + `README_对标卡片索引.md`），**只增 YAML frontmatter、篇内正文 0 改动**（git diff 删除行＝0）。字段统一：`type: Reference`（词表扩展）、`status: draft`（AI 拆解素材未经人工复核）、`generated.at: 2026-10-12`；title=H1 全文、description=范式标签压缩（≤60字客观描述片型结构）、tags 含片型括注、sources 为对象含 resource+title。sources 实况（与评审预估口径有出入，如实记录）：34 张（根10+批1/批2 各12）来源行为真实 `douyin.com/video/<id>` 直链；其余 49 张（批3/4/5 各12+批6 13）来源行为「抖音『珠宝学者郭颖』批X工单」无直链，按例外模板写「视频 URL 待补录；中间产物在 content-pipeline 仓 analysis/transcripts」，未编造 URL。okf_validate 该目录：回填前 E=84（全 E1 缺 frontmatter）/W=50 → 回填后 **E=0**、W=50（全 W81 孤儿页，目录范围/index 识别既定豁免类，正文不动）。
+
 - 2026-10-12 ［维护］文档层评审补做（用户指出文档层维护未落实后补做）：①评审报告 2.2 节补列 D-7（09 区 83 卡+索引无 OKF frontmatter，与 AGENTS.md:73「新写自然采用 OKF」不一致，09 只读区故登记待授权）；②ISSUES.md 开放节新增 ISSUE-018（09 区 frontmatter 批量回填·待授权）；③TASK_STATUS 计数 8→9 开放同步；④其余文档层发现（D-1 PROFILE 笔记数 / D-2 SOP 同名互指 / D-5 连字符统一 / D-8 frontmatter 路径基准）已在前期维护执行，证据见 commit 1effc37（D-1/D-2/D-8）与 c3c9361（D-5）。
 
 - 2026-10-12 ［维护］评审授权收尾（用户拍板"全部执行，按推荐方案"）：①新立 ADR-004《方案A改款定稿·足金O字链单颗5.5mm蓝宝石居中》+ ADR-001 标「已被 ADR-004 取代」退役注（只加注不删原文）+ ADR 索引/根 README:34 同步；②PROFILE.md:10、README.md:43 设计口径回写改款A 并指向 ADR-004（ISSUE-016 关闭）；③09 只读区授权标注 2 处（郭颖对标索引 :3 计数 10→83 张〔首批10+批1~6共73〕、:138 `video_dual_analysis_prep.py` 补「content-pipeline 仓不入库」标注，ISSUE-017 关闭）；④逐帧目录连字符统一（`ISSUE003_逐帧核实`→`ISSUE-003_逐帧核实`，git mv + 全仓引用同步，content-pipeline `workspace/ISSUE003_20261012/` 未动）；⑤ISSUES.md 016/017 移入已解决节，开放计数 8/已解决 9/未决 3。
