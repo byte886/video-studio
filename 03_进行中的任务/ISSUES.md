@@ -127,7 +127,8 @@
 - **什么情况下试过**：2026-10-05 自动化研究，腾讯云官方文档+媒体一致确认
 - **替代方案**：即梦画布（整组运行）/ LibTV（节点流水线）
 
-### WNF-003: GitHub SSH 推送
+### WNF-003: GitHub SSH 推送（✅ 已关闭，2026-10-12）
 - **原因**：本机未配置 GitHub SSH 公钥，`git push` 走 SSH 报 Permission denied (publickey)
 - **什么情况下试过**：2026-10-05 仓库初始化时实测
 - **替代方案**：HTTPS 协议推送（`gh auth setup-git` 已配置，可用）
+- **关闭（2026-10-12）**：**SSH push 已实测可用**——`git push origin main` 成功（c0ceae1..aa95a2f，exit 0），remote=`git@github.com:byte886/video-studio.git`（SSH）已能正常推送。原"SSH 不通"为 2026-10-05 历史状态（后续凭证已配置）。HTTPS 兜底说明保留作降级预案。
